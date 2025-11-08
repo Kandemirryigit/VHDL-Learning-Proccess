@@ -6,8 +6,9 @@ ENTITY half_addder is
          s,c: out std_logic);  -- s means SUM , c means CARRY
 end half_adder
 
-ARCHITECTURE structural of half_adder is
+ARCHITECTURE behavioral of half_adder is
     begin
         s<= x OR y;
         c<= x and y;
+
         end structural;
