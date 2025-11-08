@@ -10,4 +10,4 @@ end or_gate;
 ARCHITECTURE behavioral of or_gate is
 begin 
 	z<= x OR y;
-end or_gate;
+end behavioral;
