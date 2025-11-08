@@ -10,4 +10,4 @@ end xor_gate;
 ARCHITECTURE behavioral of xor_gate is
     begin 
         z<= x XOR y;
-end xor_gate;
+end behavioral;
